@@ -59,7 +59,9 @@
         "peerDependencies": true
       }
       ],
-      "react/jsx-props-no-spreading": "off"
+      "react/jsx-props-no-spreading": "off",
+      "react/jsx-no-bind": "off",
+      "react/jsx-no-constructed-context-values": "off"
     },
     "settings": {
       "import/resolver": {

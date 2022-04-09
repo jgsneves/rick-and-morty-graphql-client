@@ -34,40 +34,6 @@ exports[`Episode test suite should render 3 characteres 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Episode test suite should render only 9 characteres 1`] = `
-<DocumentFragment>
-  <div
-    class="sc-bczRLJ gzGsVq"
-  >
-    <h2
-      class="sc-gsnTZi eTEMAC"
-    >
-      Pilot
-    </h2>
-    <p
-      class="sc-dkzDqf jdgVjo"
-    >
-      Data de lançamento: 
-    </p>
-    <p
-      class="sc-hKMtZM hyIBXv"
-    >
-      December 2, 2013
-    </p>
-    <p
-      class="sc-dkzDqf jdgVjo"
-    >
-      Personagens: 
-    </p>
-    <p
-      class="sc-hKMtZM hyIBXv"
-    >
-      Rick Sanchez - Morty Smith - Bepisian - Beth Smith - Canklanker Thom - Davin - Frank Palicky - Glenn - Hookah Alien; +Mais
-    </p>
-  </div>
-</DocumentFragment>
-`;
-
 exports[`Episode test suite should render only 11 characteres 1`] = `
 <DocumentFragment>
   <div

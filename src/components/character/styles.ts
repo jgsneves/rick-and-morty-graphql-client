@@ -24,6 +24,7 @@ export const Name = styled.h2`
 export const Label = styled.p`
   font-family: 'Inter', sans-serif;
   color: #10162f;
+  font-weight: bold;
 `;
 
 export const Information = styled.p`

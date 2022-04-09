@@ -53,7 +53,7 @@ describe('Episode test suite', () => {
       />,
     );
     const chars = getByText(
-      /rick sanchez - morty smith - bepisian - beth smith - canklanker thom - davin - frank palicky - glenn - hookah alien; \+mais/i,
+      /rick sanchez - morty smith - bepisian - beth smith - canklanker thom - davin - frank palicky - glenn - hookah alien - jerry smith - jessica; \+mais/i,
     );
     expect(chars).toBeInTheDocument();
   });

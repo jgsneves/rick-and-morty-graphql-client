@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import App from './App/index';
+import { ContentContextProvider } from './contexts/contentContext';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <ContentContextProvider>
     <App />
-  </React.StrictMode>,
+  </ContentContextProvider>,
   document.getElementById('root'),
 );

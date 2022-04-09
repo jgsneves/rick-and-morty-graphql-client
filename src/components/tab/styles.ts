@@ -7,8 +7,8 @@ interface Props {
 
 const Button = styled.button<Props>`
   width: fit-content;
-  padding: 0 20px;
-  height: 50px;
+  padding: 8px 20px;
+  cursor: pointer;
   border-radius: 16px 16px 0px 0px;
   border: ${props =>
     props.isOpened ? `2px solid ${Colors.grayScale.gray2}` : 0};
@@ -23,7 +23,6 @@ const Button = styled.button<Props>`
 
   position: relative;
   top: 2px;
-  height: 52px;
 
   font-family: 'Inter', sans-serif;
 `;
