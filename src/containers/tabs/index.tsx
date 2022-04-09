@@ -6,22 +6,25 @@ import Wrapper from './styles';
 const Tabs: React.FC = () => {
   const { content, setContent } = useContentContext();
 
+  const isContentEqualChars = content === 'characteres';
+  const isContentEqualEps = content === 'episodes';
+
   function handleClickOnCharsTab() {
-    setContent('characteres');
+    if (isContentEqualEps) setContent('characteres');
   }
 
   function handleClickOnEpsTab() {
-    setContent('episodes');
+    if (isContentEqualChars) setContent('episodes');
   }
   return (
     <Wrapper>
       <Tab
-        isOpened={content === 'characteres'}
+        isOpened={isContentEqualChars}
         name="Personagens"
         onClickTab={handleClickOnCharsTab}
       />
       <Tab
-        isOpened={content === 'episodes'}
+        isOpened={isContentEqualEps}
         name="Episódios"
         onClickTab={handleClickOnEpsTab}
       />
