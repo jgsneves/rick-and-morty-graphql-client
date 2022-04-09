@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tab test suite should render Characteres closed tab 1`] = `
+<DocumentFragment>
+  <button
+    class="sc-bczRLJ OuACh"
+    type="button"
+  >
+    Personagens
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Tab test suite should render Characteres opened tab 1`] = `
+<DocumentFragment>
+  <button
+    class="sc-bczRLJ hnxMtX"
+    type="button"
+  >
+    Personagens
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Tab test suite should render Episodes closed tab 1`] = `
+<DocumentFragment>
+  <button
+    class="sc-bczRLJ OuACh"
+    type="button"
+  >
+    Episódios
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Tab test suite should render Episodes opened tab 1`] = `
+<DocumentFragment>
+  <button
+    class="sc-bczRLJ hnxMtX"
+    type="button"
+  >
+    Episódios
+  </button>
+</DocumentFragment>
+`;

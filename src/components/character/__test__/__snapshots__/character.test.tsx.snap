@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Character test suite should render only four eps 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bczRLJ HlbJB"
+  >
+    <img
+      class="sc-gsnTZi wtJol"
+      src="https//rickandmortyapi.com/api/character/avatar/1.jpeg"
+    />
+    <h2
+      class="sc-dkzDqf jdgVjo"
+    >
+      Rick Sanchez
+    </h2>
+    <p
+      class="sc-hKMtZM hyIBXv"
+    >
+      Origem: 
+    </p>
+    <p
+      class="sc-eCYdqJ diynES"
+    >
+      Earth (C-137)
+    </p>
+    <p
+      class="sc-hKMtZM hyIBXv"
+    >
+      Localização: 
+    </p>
+    <p
+      class="sc-eCYdqJ diynES"
+    >
+      Citadel of Ricks
+    </p>
+    <p
+      class="sc-hKMtZM hyIBXv"
+    >
+      Episódios: 
+    </p>
+    <p
+      class="sc-eCYdqJ diynES"
+    >
+      Pilot - Lawnmower Dog - Anatomy Park - M. Night Shaym-Aliens!; +Mais
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Character test suite should render only two eps 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bczRLJ HlbJB"
+  >
+    <img
+      class="sc-gsnTZi wtJol"
+      src="https//rickandmortyapi.com/api/character/avatar/1.jpeg"
+    />
+    <h2
+      class="sc-dkzDqf jdgVjo"
+    >
+      Rick Sanchez
+    </h2>
+    <p
+      class="sc-hKMtZM hyIBXv"
+    >
+      Origem: 
+    </p>
+    <p
+      class="sc-eCYdqJ diynES"
+    >
+      Earth (C-137)
+    </p>
+    <p
+      class="sc-hKMtZM hyIBXv"
+    >
+      Localização: 
+    </p>
+    <p
+      class="sc-eCYdqJ diynES"
+    >
+      Citadel of Ricks
+    </p>
+    <p
+      class="sc-hKMtZM hyIBXv"
+    >
+      Episódios: 
+    </p>
+    <p
+      class="sc-eCYdqJ diynES"
+    >
+      Pilot - Lawnmower Dog
+    </p>
+  </div>
+</DocumentFragment>
+`;
