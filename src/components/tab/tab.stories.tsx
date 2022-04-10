@@ -6,7 +6,10 @@ export default {
   component: Tab,
   argTypes: {
     name: {
-      control: { type: 'select', options: ['Personagens', 'Episódios'] },
+      control: {
+        type: 'select',
+        options: ['Personagens', 'Episódios'],
+      },
     },
   },
 } as ComponentMeta<typeof Tab>;

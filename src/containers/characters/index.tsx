@@ -1,6 +1,7 @@
 import { useQuery } from '@apollo/client';
 import React from 'react';
 import Character from '../../components/character';
+import Pagination from '../../components/pagination';
 import {
   Characters,
   CharactersVariables,
@@ -12,12 +13,24 @@ import Loading from '../loading';
 import { Wrapper, Title, Main } from './styles';
 
 const CharactersContainer: React.FC = () => {
+  const [page, setPage] = React.useState<number>(1);
   const { data, loading, error } = useQuery<Characters, CharactersVariables>(
     GET_CHARACTERS,
+    {
+      variables: {
+        page,
+      },
+    },
   );
   return (
     <Wrapper>
       <Title>Personagens</Title>
+      <Pagination
+        page={page}
+        pageAmount={data?.characters?.info?.pages ?? 10}
+        setPage={setPage}
+        disabled={loading}
+      />
       <Main>
         {loading && <Loading spinnerSize={50} />}
         {data &&
@@ -25,14 +38,14 @@ const CharactersContainer: React.FC = () => {
             <Character
               avatar={character?.image}
               name={character?.name}
-              key={character?.name}
+              key={Math.random()}
               origin={character?.origin?.name}
               location={character?.location?.name}
               epsodes={mapCharEpisodeResponse(character?.episode)}
             />
           ))}
-        {error && <ErrorContainer error={error} />}
       </Main>
+      {error && <ErrorContainer error={error} />}
     </Wrapper>
   );
 };

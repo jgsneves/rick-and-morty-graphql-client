@@ -10,6 +10,10 @@
 export interface Characters_characters_info {
   __typename: "Info";
   /**
+   * The amount of pages.
+   */
+  pages: number | null;
+  /**
    * Number of the next page (if it exists)
    */
   next: number | null;

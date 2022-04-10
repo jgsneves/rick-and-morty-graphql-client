@@ -11,7 +11,7 @@ export const Wrapper = styled.div`
 
   box-shadow: 0px 0px 10px ${Colors.primary};
 
-  @media (max-width: 750px) {
+  @media (max-width: 900px) {
     display: flex;
     flex-direction: column;
     text-align: center;

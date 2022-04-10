@@ -2,8 +2,8 @@ import React from 'react';
 import { Wrapper, Title, Information, Label } from './styles';
 
 interface EpisodeProps {
-  title: string;
-  airDate: string;
+  title: string | null | undefined;
+  airDate: string | null | undefined;
   characters: string[];
 }
 
