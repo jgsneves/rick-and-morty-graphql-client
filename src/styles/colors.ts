@@ -1,4 +1,5 @@
 const Colors = {
+  primary: '#10162f',
   background: '#FFF0E5',
   grayScale: {
     gray0: '#10171E',

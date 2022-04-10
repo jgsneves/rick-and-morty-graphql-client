@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Colors from '../../styles/colors';
 
 export const Wrapper = styled.div`
   display: grid;
@@ -8,7 +9,7 @@ export const Wrapper = styled.div`
   border: 1px solid black;
   align-items: center;
 
-  box-shadow: 0px 0px 10px #10162f;
+  box-shadow: 0px 0px 10px ${Colors.primary};
 
   @media (max-width: 750px) {
     display: flex;
@@ -19,18 +20,18 @@ export const Wrapper = styled.div`
 
 export const Title = styled.h2`
   font-family: 'Inter', sans-serif;
-  color: #10162f;
+  color: ${Colors.primary};
   grid-column-start: 1;
   grid-column-end: 3;
 `;
 
 export const Label = styled.p`
   font-family: 'Inter', sans-serif;
-  color: #10162f;
+  color: ${Colors.primary};
   font-weight: bold;
 `;
 
 export const Information = styled.p`
   font-family: 'Inter', sans-serif;
-  color: #10162f;
+  color: ${Colors.primary};
 `;

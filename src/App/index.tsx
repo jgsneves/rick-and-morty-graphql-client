@@ -1,5 +1,4 @@
-import React from 'react';
-import Characteres from '../containers/characteres';
+import Characters from '../containers/characters';
 import Episodes from '../containers/episodes';
 import Header from '../containers/header';
 import Tabs from '../containers/tabs';
@@ -8,11 +7,12 @@ import Wrapper from './styles';
 
 const App = () => {
   const { content } = useContentContext();
+
   return (
     <Wrapper>
       <Header />
       <Tabs />
-      {content === 'characteres' && <Characteres />}
+      {content === 'characteres' && <Characters />}
       {content === 'episodes' && <Episodes />}
     </Wrapper>
   );

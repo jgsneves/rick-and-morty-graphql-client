@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Colors from '../../styles/colors';
 
 export const Wrapper = styled.div`
   display: grid;
@@ -8,7 +9,7 @@ export const Wrapper = styled.div`
   padding: 20px;
   border: 1px solid black;
 
-  box-shadow: 0px 0px 10px #10162f;
+  box-shadow: 0px 0px 10px ${Colors.primary};
 `;
 
 export const Avatar = styled.img`
@@ -18,16 +19,16 @@ export const Avatar = styled.img`
 
 export const Name = styled.h2`
   font-family: 'Inter', sans-serif;
-  color: #10162f;
+  color: ${Colors.primary};
 `;
 
 export const Label = styled.p`
   font-family: 'Inter', sans-serif;
-  color: #10162f;
+  color: ${Colors.primary};
   font-weight: bold;
 `;
 
 export const Information = styled.p`
   font-family: 'Inter', sans-serif;
-  color: #10162f;
+  color: ${Colors.primary};
 `;

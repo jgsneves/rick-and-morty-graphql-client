@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Colors from '../../styles/colors';
 
 export const Wrapper = styled.main`
   display: flex;
@@ -10,7 +11,7 @@ export const Wrapper = styled.main`
 
 export const Title = styled.h1`
   font-family: 'Inter', sans-serif;
-  color: #10162f;
+  color: ${Colors.primary};
 `;
 
 export const Main = styled.main`
