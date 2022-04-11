@@ -1,4 +1,4 @@
-[Rick and Morty](https://firebasestorage.googleapis.com/v0/b/enme-b7107.appspot.com/o/name.png?alt=media)
+![Rick and Morty](https://firebasestorage.googleapis.com/v0/b/enme-b7107.appspot.com/o/name.png?alt=media)
 
 # Rick And Morty frontend client
 
