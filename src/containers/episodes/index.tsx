@@ -9,7 +9,7 @@ import ErrorContainer from '../error';
 import Loading from '../loading';
 import { Main, Title, Wrapper } from './styles';
 
-const EpisodesContainer = () => {
+const EpisodesContainer: React.FC = () => {
   const [page, setPage] = React.useState<number>(1);
   const { data, loading, error } = useQuery<Episodes, EpisodesVariables>(
     GET_EPISODES,

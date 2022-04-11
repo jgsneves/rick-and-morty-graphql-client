@@ -1,6 +1,7 @@
+import React from 'react';
 import { Logo, RickAndMortyName, Wrapper } from './styles';
 
-const Header = () => {
+const HeaderContainer: React.FC = () => {
   return (
     <Wrapper>
       <RickAndMortyName
@@ -15,4 +16,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default HeaderContainer;

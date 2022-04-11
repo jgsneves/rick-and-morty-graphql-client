@@ -2,11 +2,13 @@ import React from 'react';
 import Spinner from '../../components/spinner';
 import { Wrapper, Text } from './styles';
 
-interface LoadingProps {
+interface LoadingContainerProps {
   spinnerSize: number;
 }
 
-const Loading: React.FC<LoadingProps> = ({ spinnerSize }: LoadingProps) => {
+const LoadingContainer: React.FC<LoadingContainerProps> = ({
+  spinnerSize,
+}: LoadingContainerProps) => {
   return (
     <Wrapper>
       <Spinner color="primary" size={spinnerSize} />
@@ -15,4 +17,4 @@ const Loading: React.FC<LoadingProps> = ({ spinnerSize }: LoadingProps) => {
   );
 };
 
-export default Loading;
+export default LoadingContainer;

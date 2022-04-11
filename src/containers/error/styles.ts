@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import Colors from '../../styles/colors';
+import { BaseH3, BaseH4 } from '../../styles/globalStyles';
 
 export const Wrapper = styled.div`
   display: flex;
@@ -7,12 +7,6 @@ export const Wrapper = styled.div`
   align-items: center;
 `;
 
-export const Text = styled.h3`
-  font-family: 'Inter', sans-serif;
-  color: ${Colors.primary};
-`;
+export const Text = styled(BaseH3)``;
 
-export const ErrorText = styled.h4`
-  font-family: 'Inter', sans-serif;
-  color: ${Colors.error.red0};
-`;
+export const ErrorText = styled(BaseH4)``;

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import Colors from '../../styles/colors';
+import { BaseH2 } from '../../styles/globalStyles';
 
 export const Wrapper = styled.div`
   display: flex;
@@ -8,7 +8,4 @@ export const Wrapper = styled.div`
   height: 80vh;
 `;
 
-export const Text = styled.h2`
-  color: ${Colors.primary};
-  font-family: 'Inter', sans-serif;
-`;
+export const Text = styled(BaseH2)``;

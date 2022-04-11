@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import Colors from '../../styles/colors';
+import { BaseH2, BaseParagraph } from '../../styles/globalStyles';
 
 export const Wrapper = styled.div`
   display: grid;
@@ -18,20 +19,13 @@ export const Wrapper = styled.div`
   }
 `;
 
-export const Title = styled.h2`
-  font-family: 'Inter', sans-serif;
-  color: ${Colors.primary};
+export const Title = styled(BaseH2)`
   grid-column-start: 1;
   grid-column-end: 3;
 `;
 
-export const Label = styled.p`
-  font-family: 'Inter', sans-serif;
-  color: ${Colors.primary};
+export const Label = styled(BaseParagraph)`
   font-weight: bold;
 `;
 
-export const Information = styled.p`
-  font-family: 'Inter', sans-serif;
-  color: ${Colors.primary};
-`;
+export const Information = styled(BaseParagraph)``;

@@ -1,18 +1,17 @@
 import styled from 'styled-components';
-import Colors from '../../styles/colors';
+import { BaseH1 } from '../../styles/globalStyles';
 
-export const Wrapper = styled.main`
+export const Wrapper = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 80vw;
+
+  width: 60vw;
   margin: 0 auto;
+  padding-bottom: 50px;
 `;
 
-export const Title = styled.h1`
-  font-family: 'Inter', sans-serif;
-  color: ${Colors.primary};
-`;
+export const Title = styled(BaseH1)``;
 
 export const Main = styled.main`
   display: flex;

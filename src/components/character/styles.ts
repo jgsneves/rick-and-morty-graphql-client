@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import Colors from '../../styles/colors';
+import { BaseH2, BaseParagraph } from '../../styles/globalStyles';
 
 export const Wrapper = styled.div`
   display: grid;
@@ -17,18 +18,10 @@ export const Avatar = styled.img`
   width: 80px;
 `;
 
-export const Name = styled.h2`
-  font-family: 'Inter', sans-serif;
-  color: ${Colors.primary};
-`;
+export const Name = styled(BaseH2)``;
 
-export const Label = styled.p`
-  font-family: 'Inter', sans-serif;
-  color: ${Colors.primary};
+export const Label = styled(BaseParagraph)`
   font-weight: bold;
 `;
 
-export const Information = styled.p`
-  font-family: 'Inter', sans-serif;
-  color: ${Colors.primary};
-`;
+export const Information = styled(BaseParagraph)``;

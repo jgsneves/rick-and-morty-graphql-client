@@ -1,6 +1,6 @@
 import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client';
 import ReactDOM from 'react-dom';
-import App from './App/index';
+import App from './app/index';
 import { ContentProvider } from './contexts/contentContext';
 import GlobalStyles from './styles/globalStyles';
 
