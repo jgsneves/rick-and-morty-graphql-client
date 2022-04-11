@@ -1,4 +1,3 @@
-/* eslint-disable camelcase */
 import { Episodes_episodes_results_characters } from '../graphql/generated/Episodes';
 
 const mapEpisodeCharsResponse = (

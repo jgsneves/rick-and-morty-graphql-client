@@ -3,44 +3,44 @@
 exports[`Character test suite should render only four eps 1`] = `
 <DocumentFragment>
   <div
-    class="sc-bczRLJ HlbJB"
+    class="sc-bczRLJ hGjtOu"
   >
     <img
       class="sc-gsnTZi wtJol"
       src="https//rickandmortyapi.com/api/character/avatar/1.jpeg"
     />
     <h2
-      class="sc-dkzDqf jdgVjo"
+      class="sc-dkzDqf bOavjn"
     >
       Rick Sanchez
     </h2>
     <p
-      class="sc-hKMtZM hyIBXv"
+      class="sc-hKMtZM fuiNwc"
     >
       Origem: 
     </p>
     <p
-      class="sc-eCYdqJ diynES"
+      class="sc-eCYdqJ kElERB"
     >
       Earth (C-137)
     </p>
     <p
-      class="sc-hKMtZM hyIBXv"
+      class="sc-hKMtZM fuiNwc"
     >
       Localização: 
     </p>
     <p
-      class="sc-eCYdqJ diynES"
+      class="sc-eCYdqJ kElERB"
     >
       Citadel of Ricks
     </p>
     <p
-      class="sc-hKMtZM hyIBXv"
+      class="sc-hKMtZM fuiNwc"
     >
       Episódios: 
     </p>
     <p
-      class="sc-eCYdqJ diynES"
+      class="sc-eCYdqJ kElERB"
     >
       Pilot - Lawnmower Dog - Anatomy Park - M. Night Shaym-Aliens!; +Mais
     </p>
@@ -51,44 +51,44 @@ exports[`Character test suite should render only four eps 1`] = `
 exports[`Character test suite should render only two eps 1`] = `
 <DocumentFragment>
   <div
-    class="sc-bczRLJ HlbJB"
+    class="sc-bczRLJ hGjtOu"
   >
     <img
       class="sc-gsnTZi wtJol"
       src="https//rickandmortyapi.com/api/character/avatar/1.jpeg"
     />
     <h2
-      class="sc-dkzDqf jdgVjo"
+      class="sc-dkzDqf bOavjn"
     >
       Rick Sanchez
     </h2>
     <p
-      class="sc-hKMtZM hyIBXv"
+      class="sc-hKMtZM fuiNwc"
     >
       Origem: 
     </p>
     <p
-      class="sc-eCYdqJ diynES"
+      class="sc-eCYdqJ kElERB"
     >
       Earth (C-137)
     </p>
     <p
-      class="sc-hKMtZM hyIBXv"
+      class="sc-hKMtZM fuiNwc"
     >
       Localização: 
     </p>
     <p
-      class="sc-eCYdqJ diynES"
+      class="sc-eCYdqJ kElERB"
     >
       Citadel of Ricks
     </p>
     <p
-      class="sc-hKMtZM hyIBXv"
+      class="sc-hKMtZM fuiNwc"
     >
       Episódios: 
     </p>
     <p
-      class="sc-eCYdqJ diynES"
+      class="sc-eCYdqJ kElERB"
     >
       Pilot - Lawnmower Dog
     </p>

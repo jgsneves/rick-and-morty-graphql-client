@@ -3,7 +3,7 @@
 exports[`Tab test suite should render Characteres closed tab 1`] = `
 <DocumentFragment>
   <button
-    class="sc-bczRLJ OuACh"
+    class="sc-bczRLJ kyEpFq"
     type="button"
   >
     Personagens
@@ -14,7 +14,7 @@ exports[`Tab test suite should render Characteres closed tab 1`] = `
 exports[`Tab test suite should render Characteres opened tab 1`] = `
 <DocumentFragment>
   <button
-    class="sc-bczRLJ hnxMtX"
+    class="sc-bczRLJ hgXDSM"
     type="button"
   >
     Personagens
@@ -25,7 +25,7 @@ exports[`Tab test suite should render Characteres opened tab 1`] = `
 exports[`Tab test suite should render Episodes closed tab 1`] = `
 <DocumentFragment>
   <button
-    class="sc-bczRLJ OuACh"
+    class="sc-bczRLJ kyEpFq"
     type="button"
   >
     Episódios
@@ -36,7 +36,7 @@ exports[`Tab test suite should render Episodes closed tab 1`] = `
 exports[`Tab test suite should render Episodes opened tab 1`] = `
 <DocumentFragment>
   <button
-    class="sc-bczRLJ hnxMtX"
+    class="sc-bczRLJ hgXDSM"
     type="button"
   >
     Episódios

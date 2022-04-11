@@ -13,9 +13,7 @@ interface ContentContextProviderProps {
 
 const ContentContext = createContext<ContentContext>({} as ContentContext);
 
-export const ContentContextProvider = ({
-  children,
-}: ContentContextProviderProps) => {
+export const ContentProvider = ({ children }: ContentContextProviderProps) => {
   const [content, setContent] = useState<Content>('characteres');
   return (
     <ContentContext.Provider

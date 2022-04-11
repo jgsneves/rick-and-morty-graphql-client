@@ -3,30 +3,30 @@
 exports[`Episode test suite should render 3 characteres 1`] = `
 <DocumentFragment>
   <div
-    class="sc-bczRLJ gzGsVq"
+    class="sc-bczRLJ ewqaQt"
   >
     <h2
-      class="sc-gsnTZi eTEMAC"
+      class="sc-gsnTZi gVnLhl"
     >
       Pilot
     </h2>
     <p
-      class="sc-dkzDqf jdgVjo"
+      class="sc-dkzDqf jXuBL"
     >
       Data de lançamento: 
     </p>
     <p
-      class="sc-hKMtZM hyIBXv"
+      class="sc-hKMtZM kycrHw"
     >
       December 2, 2013
     </p>
     <p
-      class="sc-dkzDqf jdgVjo"
+      class="sc-dkzDqf jXuBL"
     >
       Personagens: 
     </p>
     <p
-      class="sc-hKMtZM hyIBXv"
+      class="sc-hKMtZM kycrHw"
     >
       Rick Sanchez - Morty Smith - Bepisian
     </p>
@@ -37,30 +37,30 @@ exports[`Episode test suite should render 3 characteres 1`] = `
 exports[`Episode test suite should render only 11 characteres 1`] = `
 <DocumentFragment>
   <div
-    class="sc-bczRLJ gzGsVq"
+    class="sc-bczRLJ ewqaQt"
   >
     <h2
-      class="sc-gsnTZi eTEMAC"
+      class="sc-gsnTZi gVnLhl"
     >
       Pilot
     </h2>
     <p
-      class="sc-dkzDqf jdgVjo"
+      class="sc-dkzDqf jXuBL"
     >
       Data de lançamento: 
     </p>
     <p
-      class="sc-hKMtZM hyIBXv"
+      class="sc-hKMtZM kycrHw"
     >
       December 2, 2013
     </p>
     <p
-      class="sc-dkzDqf jdgVjo"
+      class="sc-dkzDqf jXuBL"
     >
       Personagens: 
     </p>
     <p
-      class="sc-hKMtZM hyIBXv"
+      class="sc-hKMtZM kycrHw"
     >
       Rick Sanchez - Morty Smith - Bepisian - Beth Smith - Canklanker Thom - Davin - Frank Palicky - Glenn - Hookah Alien - Jerry Smith - Jessica; +Mais
     </p>

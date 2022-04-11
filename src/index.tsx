@@ -1,7 +1,7 @@
 import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client';
 import ReactDOM from 'react-dom';
 import App from './App/index';
-import { ContentContextProvider } from './contexts/contentContext';
+import { ContentProvider } from './contexts/contentContext';
 import GlobalStyles from './styles/globalStyles';
 
 const client = new ApolloClient({
@@ -11,10 +11,10 @@ const client = new ApolloClient({
 
 ReactDOM.render(
   <ApolloProvider client={client}>
-    <ContentContextProvider>
+    <ContentProvider>
       <App />
       <GlobalStyles />
-    </ContentContextProvider>
+    </ContentProvider>
   </ApolloProvider>,
   document.getElementById('root'),
 );

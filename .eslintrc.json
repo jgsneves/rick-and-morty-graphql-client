@@ -54,14 +54,16 @@
       {
         "devDependencies": [
           "**/*.stories.*",
-          "**/.storybook/**/*.*"
+          "**/.storybook/**/*.*",
+          "./src/mocks/*"
         ],
         "peerDependencies": true
       }
       ],
       "react/jsx-props-no-spreading": "off",
       "react/jsx-no-bind": "off",
-      "react/jsx-no-constructed-context-values": "off"
+      "react/jsx-no-constructed-context-values": "off",
+      "camelcase": "off"
     },
     "settings": {
       "import/resolver": {
