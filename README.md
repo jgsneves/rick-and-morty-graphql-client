@@ -1,46 +1,47 @@
-# Getting Started with Create React App
+[Rick and Morty](https://firebasestorage.googleapis.com/v0/b/enme-b7107.appspot.com/o/name.png?alt=media)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Rick And Morty frontend client
 
-## Available Scripts
+Esta aplicação tem o intuito de consumir a [api de Rick And Morty](https://rickandmortyapi.com/graphql) utilizando `ReactJS` e `GraphQL`.
+
+## Como utilizar esta aplicação?
+
+Faça o clone do respositório para a sua máquina local, instale as dependências (utilizando o comando `yarn` dentro da pasta raiz do projeto) e depois `yarn start`.
+
+## Scripts
 
 In the project directory, you can run:
 
 ### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Starta a aplicação em seu `localhost`.
+Abra [http://localhost:3000](http://localhost:3000) para vê-la no browser.
 
 ### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Starta todos os suites de testes unitários presentes na aplicação.
 
 ### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Compila o aplicativo para produção na pasta `build`.\
+Ele agrupa corretamente o React no modo de produção e otimiza a compilação para o melhor desempenho.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+A compilação é reduzida e os nomes dos arquivos incluem os hashes.\
+Seu aplicativo está pronto para ser implantado!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `yarn apollo:schema`
 
-### `yarn eject`
+Faz download do GraphQL Schema diretamente da API, sendo desnecessário baixá-lo manualmente.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### `yarn apollo:codegen`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Do schema baixado pelo comando anterior, 
+cria todas as tipagens do `Typescript` para as requisições na API, tornando a experiência de desenvolvimento muito mais flúida e confiável.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### `yarn storybook`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Starta o [Storybook](https://storybook.js.org/), software que permite a visualização dos componentes da aplicação, sem necessidade de starta toda ela.
 
-## Learn More
+## Dependências
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+1) Node: > 14.0.0
