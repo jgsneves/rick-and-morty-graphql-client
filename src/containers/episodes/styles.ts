@@ -11,6 +11,11 @@ export const Wrapper = styled.section`
   padding-bottom: 50px;
 `;
 
+export const FilterSection = styled.div`
+  width: 200px;
+  margin-top: 20px;
+`;
+
 export const Title = styled(BaseH1)``;
 
 export const Main = styled.main`

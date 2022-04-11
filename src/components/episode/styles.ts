@@ -9,10 +9,11 @@ export const Wrapper = styled.div`
   padding: 20px;
   border: 1px solid black;
   align-items: center;
+  width: 100%;
 
   box-shadow: 0px 0px 10px ${Colors.primary};
 
-  @media (max-width: 900px) {
+  @media (max-width: 950px) {
     display: flex;
     flex-direction: column;
     text-align: center;

@@ -3,6 +3,8 @@
 // @generated
 // This file was automatically generated and should not be edited.
 
+import { FilterEpisode } from "./globalTypes";
+
 // ====================================================
 // GraphQL query operation: Episodes
 // ====================================================
@@ -58,4 +60,5 @@ export interface Episodes {
 
 export interface EpisodesVariables {
   page?: number | null;
+  filter?: FilterEpisode | null;
 }

@@ -35,3 +35,9 @@ export const BaseParagraph = styled.p`
   font-family: 'Inter', sans-serif;
   color: ${Colors.primary};
 `;
+
+export const BaseLabel = styled.label`
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  color: ${Colors.primary};
+`;

@@ -3,6 +3,8 @@
 // @generated
 // This file was automatically generated and should not be edited.
 
+import { FilterCharacter } from "./globalTypes";
+
 // ====================================================
 // GraphQL query operation: Characters
 // ====================================================
@@ -83,4 +85,5 @@ export interface Characters {
 
 export interface CharactersVariables {
   page?: number | null;
+  filter?: FilterCharacter | null;
 }

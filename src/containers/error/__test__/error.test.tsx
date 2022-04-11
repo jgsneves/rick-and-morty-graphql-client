@@ -9,7 +9,9 @@ describe('ErrorContainer test suite', () => {
     const graphqlError = new GraphQLError(errorMessage);
     const error = new ApolloError({ graphQLErrors: [graphqlError] });
 
-    const { getByText } = render(<ErrorContainer error={error} />);
+    const { getByText } = render(
+      <ErrorContainer error={error} content="Episódio" />,
+    );
 
     const result = getByText(errorMessage);
     const title = getByText(

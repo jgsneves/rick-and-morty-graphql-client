@@ -1,19 +1,30 @@
 import { useQuery } from '@apollo/client';
 import React from 'react';
 import Episode from '../../components/episode';
+import Filter, { FilterEpisode } from '../../components/filter';
 import Pagination from '../../components/pagination';
 import { Episodes, EpisodesVariables } from '../../graphql/generated/Episodes';
 import GET_EPISODES from '../../graphql/queries/episodes';
 import mapEpisodeCharsResponse from '../../mappers/episodeCharsResponse';
 import ErrorContainer from '../error';
 import Loading from '../loading';
-import { Main, Title, Wrapper } from './styles';
+import { Main, Title, Wrapper, FilterSection } from './styles';
 
 const EpisodesContainer: React.FC = () => {
   const [page, setPage] = React.useState<number>(1);
+
+  const [filterData, setFilterData] = React.useState<FilterEpisode>({
+    name: '',
+  });
+
   const { data, loading, error } = useQuery<Episodes, EpisodesVariables>(
     GET_EPISODES,
-    { variables: { page } },
+    {
+      variables: {
+        page,
+        filter: filterData,
+      },
+    },
   );
   return (
     <Wrapper>
@@ -24,6 +35,14 @@ const EpisodesContainer: React.FC = () => {
         setPage={setPage}
         disabled={loading}
       />
+      <FilterSection>
+        <Filter
+          label="Filtrar por nome"
+          dataToChange="name"
+          filterData={filterData}
+          setData={setFilterData}
+        />
+      </FilterSection>
       <Main>
         {loading && <Loading spinnerSize={50} />}
         {data?.episodes?.results?.map(episode => (
@@ -35,7 +54,7 @@ const EpisodesContainer: React.FC = () => {
           />
         ))}
       </Main>
-      {error && <ErrorContainer error={error} />}
+      {error && <ErrorContainer error={error} content="Episódio" />}
     </Wrapper>
   );
 };

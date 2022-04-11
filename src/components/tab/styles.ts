@@ -6,7 +6,7 @@ interface Props {
 }
 
 const Button = styled.button<Props>`
-  width: fit-content;
+  width: 200px;
   padding: 8px 20px;
   cursor: ${props => (props.isOpened ? 'default' : 'pointer')};
   border-radius: 16px 16px 0px 0px;

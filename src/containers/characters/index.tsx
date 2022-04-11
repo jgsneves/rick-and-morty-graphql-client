@@ -1,6 +1,7 @@
 import { useQuery } from '@apollo/client';
 import React from 'react';
 import Character from '../../components/character';
+import Filter, { FilterCharacter } from '../../components/filter';
 import Pagination from '../../components/pagination';
 import {
   Characters,
@@ -10,15 +11,21 @@ import GET_CHARACTERS from '../../graphql/queries/characteres';
 import mapCharEpisodeResponse from '../../mappers/charEpisodeResponse';
 import ErrorContainer from '../error';
 import Loading from '../loading';
-import { Wrapper, Title, Main } from './styles';
+import { Wrapper, Title, Main, FilterSection } from './styles';
 
 const CharactersContainer: React.FC = () => {
   const [page, setPage] = React.useState<number>(1);
+
+  const [filterData, setFilterData] = React.useState<FilterCharacter>({
+    name: '',
+  });
+
   const { data, loading, error } = useQuery<Characters, CharactersVariables>(
     GET_CHARACTERS,
     {
       variables: {
         page,
+        filter: filterData,
       },
     },
   );
@@ -31,6 +38,14 @@ const CharactersContainer: React.FC = () => {
         setPage={setPage}
         disabled={loading}
       />
+      <FilterSection>
+        <Filter
+          label="Filtrar por nome"
+          dataToChange="name"
+          filterData={filterData}
+          setData={setFilterData}
+        />
+      </FilterSection>
       <Main>
         {loading && <Loading spinnerSize={50} />}
         {data &&
@@ -45,7 +60,7 @@ const CharactersContainer: React.FC = () => {
             />
           ))}
       </Main>
-      {error && <ErrorContainer error={error} />}
+      {error && <ErrorContainer error={error} content="Personagem" />}
     </Wrapper>
   );
 };

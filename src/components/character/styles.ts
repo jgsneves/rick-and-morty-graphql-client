@@ -18,7 +18,10 @@ export const Avatar = styled.img`
   width: 80px;
 `;
 
-export const Name = styled(BaseH2)``;
+export const Name = styled(BaseH2)`
+  text-overflow: ellipsis;
+  overflow: hidden;
+`;
 
 export const Label = styled(BaseParagraph)`
   font-weight: bold;

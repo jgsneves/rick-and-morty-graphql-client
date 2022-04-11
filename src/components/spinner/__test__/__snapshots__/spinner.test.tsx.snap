@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spinner test suite should render primary color snapshot 1`] = `
+<DocumentFragment>
+  <svg
+    class="sc-bczRLJ iBHIyA"
+    color="primary"
+    size="50"
+    viewBox="0 0 50 50"
+  >
+    <circle
+      class="path"
+      cx="25"
+      cy="25"
+      fill="none"
+      r="20"
+      stroke-width="6"
+    />
+  </svg>
+</DocumentFragment>
+`;
+
+exports[`Spinner test suite should render secondary color snapshot 1`] = `
+<DocumentFragment>
+  <svg
+    class="sc-bczRLJ jccGrK"
+    color="secondary"
+    size="50"
+    viewBox="0 0 50 50"
+  >
+    <circle
+      class="path"
+      cx="25"
+      cy="25"
+      fill="none"
+      r="20"
+      stroke-width="6"
+    />
+  </svg>
+</DocumentFragment>
+`;

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Filter test suite should render proper snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-gKXOVf bLqwLA"
+  >
+    <label
+      class="sc-jSMfEi sc-iBkjds geWqUb vFWPx"
+      for="name"
+    >
+      Filtre por nome
+    </label>
+    <input
+      class="sc-ftvSup lqAoO"
+      id="name"
+      type="text"
+      value=""
+    />
+  </div>
+</DocumentFragment>
+`;
